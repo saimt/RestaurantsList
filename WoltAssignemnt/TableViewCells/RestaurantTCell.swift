@@ -10,12 +10,15 @@ import UIKit
 
 class RestaurantTCell: UITableViewCell {
 
+    //MARK: Outlets
     @IBOutlet weak var vwBackground: UIView!
     @IBOutlet weak var imgRestaurant: UIImageView!
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblDescription: UILabel!
     @IBOutlet weak var lblPrice: UILabel!
     @IBOutlet weak var vwOnline: UIView!
+    
+    //MARK: Load
     override func awakeFromNib() {
         super.awakeFromNib()
         initViews()
@@ -27,6 +30,7 @@ class RestaurantTCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    //MARK: Methods
     func initViews() {
         vwBackground.layer.cornerRadius = 10
         vwBackground.dropShadow(scale: false)
