@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AA92D13E34D0773D16461BF /* Pods_WoltAssignemnt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE8790D0431B58E86E8535F /* Pods_WoltAssignemnt.framework */; };
+		E2839AB1240D713D00A9E91C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2839AB0240D713D00A9E91C /* Extensions.swift */; };
+		E2BC6D0423D33DD7008FB5F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D0323D33DD7008FB5F0 /* AppDelegate.swift */; };
+		E2BC6D0623D33DD7008FB5F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D0523D33DD7008FB5F0 /* SceneDelegate.swift */; };
+		E2BC6D0823D33DD7008FB5F0 /* RestaurantsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D0723D33DD7008FB5F0 /* RestaurantsVC.swift */; };
+		E2BC6D0B23D33DD7008FB5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6D0923D33DD7008FB5F0 /* Main.storyboard */; };
+		E2BC6D0D23D33DD8008FB5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6D0C23D33DD8008FB5F0 /* Assets.xcassets */; };
+		E2BC6D1023D33DD8008FB5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6D0E23D33DD8008FB5F0 /* LaunchScreen.storyboard */; };
+		E2BC6D1823D33EEB008FB5F0 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6D1723D33EEB008FB5F0 /* restaurants.json */; };
+		E2BC6D1C23D33FE2008FB5F0 /* RestaurantTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D1B23D33FE2008FB5F0 /* RestaurantTCell.swift */; };
+		E2BC6D2423D344A7008FB5F0 /* StencilTemplate.stencil in Resources */ = {isa = PBXBuildFile; fileRef = E2BC6D2323D344A7008FB5F0 /* StencilTemplate.stencil */; };
+		E2BC6D2623D344AF008FB5F0 /* ModelsStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D2523D344AF008FB5F0 /* ModelsStructs.swift */; };
+		E2BC6D2823D344C6008FB5F0 /* StencilTemplate.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D2723D344C6008FB5F0 /* StencilTemplate.generated.swift */; };
+		E2BC6D2A23D349F2008FB5F0 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BC6D2923D349F2008FB5F0 /* ServerManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22F6CFE797C87B0BB930E931 /* Pods-WoltAssignemnt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoltAssignemnt.release.xcconfig"; path = "Target Support Files/Pods-WoltAssignemnt/Pods-WoltAssignemnt.release.xcconfig"; sourceTree = "<group>"; };
+		7AE8790D0431B58E86E8535F /* Pods_WoltAssignemnt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoltAssignemnt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A2A736547E2C13DB9726C7 /* Pods-WoltAssignemnt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoltAssignemnt.debug.xcconfig"; path = "Target Support Files/Pods-WoltAssignemnt/Pods-WoltAssignemnt.debug.xcconfig"; sourceTree = "<group>"; };
+		E2839AB0240D713D00A9E91C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2BC6D0023D33DD7008FB5F0 /* WoltAssignemnt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoltAssignemnt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2BC6D0323D33DD7008FB5F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2BC6D0523D33DD7008FB5F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2BC6D0723D33DD7008FB5F0 /* RestaurantsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsVC.swift; sourceTree = "<group>"; };
+		E2BC6D0A23D33DD7008FB5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2BC6D0C23D33DD8008FB5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2BC6D0F23D33DD8008FB5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2BC6D1123D33DD8008FB5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BC6D1723D33EEB008FB5F0 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurants.json; sourceTree = "<group>"; };
+		E2BC6D1B23D33FE2008FB5F0 /* RestaurantTCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTCell.swift; sourceTree = "<group>"; };
+		E2BC6D2323D344A7008FB5F0 /* StencilTemplate.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StencilTemplate.stencil; sourceTree = "<group>"; };
+		E2BC6D2523D344AF008FB5F0 /* ModelsStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsStructs.swift; sourceTree = "<group>"; };
+		E2BC6D2723D344C6008FB5F0 /* StencilTemplate.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StencilTemplate.generated.swift; sourceTree = "<group>"; };
+		E2BC6D2923D349F2008FB5F0 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2BC6CFD23D33DD7008FB5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AA92D13E34D0773D16461BF /* Pods_WoltAssignemnt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9159B228B393DCF007784C84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8A2A736547E2C13DB9726C7 /* Pods-WoltAssignemnt.debug.xcconfig */,
+				22F6CFE797C87B0BB930E931 /* Pods-WoltAssignemnt.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8638B6EF31983F4DCCE53AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE8790D0431B58E86E8535F /* Pods_WoltAssignemnt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2BC6CF723D33DD7008FB5F0 = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D0223D33DD7008FB5F0 /* WoltAssignemnt */,
+				E2BC6D0123D33DD7008FB5F0 /* Products */,
+				9159B228B393DCF007784C84 /* Pods */,
+				C8638B6EF31983F4DCCE53AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2BC6D0123D33DD7008FB5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D0023D33DD7008FB5F0 /* WoltAssignemnt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2BC6D0223D33DD7008FB5F0 /* WoltAssignemnt */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D1D23D343D7008FB5F0 /* Models */,
+				E2BC6D1A23D33FC4008FB5F0 /* Controllers */,
+				E2BC6D1923D33FBA008FB5F0 /* TableViewCells */,
+				E2BC6D0323D33DD7008FB5F0 /* AppDelegate.swift */,
+				E2BC6D0523D33DD7008FB5F0 /* SceneDelegate.swift */,
+				E2BC6D0923D33DD7008FB5F0 /* Main.storyboard */,
+				E2BC6D0C23D33DD8008FB5F0 /* Assets.xcassets */,
+				E2BC6D0E23D33DD8008FB5F0 /* LaunchScreen.storyboard */,
+				E2BC6D1123D33DD8008FB5F0 /* Info.plist */,
+				E2BC6D1723D33EEB008FB5F0 /* restaurants.json */,
+				E2BC6D2923D349F2008FB5F0 /* ServerManager.swift */,
+				E2839AB0240D713D00A9E91C /* Extensions.swift */,
+			);
+			path = WoltAssignemnt;
+			sourceTree = "<group>";
+		};
+		E2BC6D1923D33FBA008FB5F0 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D1B23D33FE2008FB5F0 /* RestaurantTCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E2BC6D1A23D33FC4008FB5F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D0723D33DD7008FB5F0 /* RestaurantsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E2BC6D1D23D343D7008FB5F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D2123D343F8008FB5F0 /* Generated */,
+				E2BC6D2023D343EF008FB5F0 /* Stencil */,
+				E2BC6D1E23D343DE008FB5F0 /* Struct */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2BC6D1E23D343DE008FB5F0 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D2523D344AF008FB5F0 /* ModelsStructs.swift */,
+			);
+			path = Struct;
+			sourceTree = "<group>";
+		};
+		E2BC6D2023D343EF008FB5F0 /* Stencil */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D2323D344A7008FB5F0 /* StencilTemplate.stencil */,
+			);
+			path = Stencil;
+			sourceTree = "<group>";
+		};
+		E2BC6D2123D343F8008FB5F0 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC6D2723D344C6008FB5F0 /* StencilTemplate.generated.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2BC6CFF23D33DD7008FB5F0 /* WoltAssignemnt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2BC6D1423D33DD8008FB5F0 /* Build configuration list for PBXNativeTarget "WoltAssignemnt" */;
+			buildPhases = (
+				B8144B86C4B068B24D91D0EB /* [CP] Check Pods Manifest.lock */,
+				E2BC6D2223D3446E008FB5F0 /* Sourcery Models */,
+				E2BC6CFC23D33DD7008FB5F0 /* Sources */,
+				E2BC6CFD23D33DD7008FB5F0 /* Frameworks */,
+				E2BC6CFE23D33DD7008FB5F0 /* Resources */,
+				21E77EDD19FB2F4572B2262D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoltAssignemnt;
+			productName = WoltAssignemnt;
+			productReference = E2BC6D0023D33DD7008FB5F0 /* WoltAssignemnt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2BC6CF823D33DD7008FB5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Saim;
+				TargetAttributes = {
+					E2BC6CFF23D33DD7008FB5F0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E2BC6CFB23D33DD7008FB5F0 /* Build configuration list for PBXProject "WoltAssignemnt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2BC6CF723D33DD7008FB5F0;
+			productRefGroup = E2BC6D0123D33DD7008FB5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2BC6CFF23D33DD7008FB5F0 /* WoltAssignemnt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2BC6CFE23D33DD7008FB5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BC6D2423D344A7008FB5F0 /* StencilTemplate.stencil in Resources */,
+				E2BC6D1823D33EEB008FB5F0 /* restaurants.json in Resources */,
+				E2BC6D1023D33DD8008FB5F0 /* LaunchScreen.storyboard in Resources */,
+				E2BC6D0D23D33DD8008FB5F0 /* Assets.xcassets in Resources */,
+				E2BC6D0B23D33DD7008FB5F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21E77EDD19FB2F4572B2262D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoltAssignemnt/Pods-WoltAssignemnt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WoltAssignemnt/Pods-WoltAssignemnt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WoltAssignemnt/Pods-WoltAssignemnt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8144B86C4B068B24D91D0EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WoltAssignemnt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2BC6D2223D3446E008FB5F0 /* Sourcery Models */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Sourcery Models";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sourcery --sources . --templates WoltAssignemnt/Models/Stencil --output WoltAssignemnt/Models/Generated\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2BC6CFC23D33DD7008FB5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2BC6D2623D344AF008FB5F0 /* ModelsStructs.swift in Sources */,
+				E2BC6D0823D33DD7008FB5F0 /* RestaurantsVC.swift in Sources */,
+				E2BC6D1C23D33FE2008FB5F0 /* RestaurantTCell.swift in Sources */,
+				E2839AB1240D713D00A9E91C /* Extensions.swift in Sources */,
+				E2BC6D0423D33DD7008FB5F0 /* AppDelegate.swift in Sources */,
+				E2BC6D2A23D349F2008FB5F0 /* ServerManager.swift in Sources */,
+				E2BC6D0623D33DD7008FB5F0 /* SceneDelegate.swift in Sources */,
+				E2BC6D2823D344C6008FB5F0 /* StencilTemplate.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2BC6D0923D33DD7008FB5F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BC6D0A23D33DD7008FB5F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2BC6D0E23D33DD8008FB5F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2BC6D0F23D33DD8008FB5F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2BC6D1223D33DD8008FB5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2BC6D1323D33DD8008FB5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2BC6D1523D33DD8008FB5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8A2A736547E2C13DB9726C7 /* Pods-WoltAssignemnt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HY5H9R7CD;
+				INFOPLIST_FILE = WoltAssignemnt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saim.WoltAssignemnt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2BC6D1623D33DD8008FB5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F6CFE797C87B0BB930E931 /* Pods-WoltAssignemnt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9HY5H9R7CD;
+				INFOPLIST_FILE = WoltAssignemnt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.saim.WoltAssignemnt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2BC6CFB23D33DD7008FB5F0 /* Build configuration list for PBXProject "WoltAssignemnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BC6D1223D33DD8008FB5F0 /* Debug */,
+				E2BC6D1323D33DD8008FB5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2BC6D1423D33DD8008FB5F0 /* Build configuration list for PBXNativeTarget "WoltAssignemnt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BC6D1523D33DD8008FB5F0 /* Debug */,
+				E2BC6D1623D33DD8008FB5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2BC6CF823D33DD7008FB5F0 /* Project object */;
+}
